@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title">
+            <h1>The Bee Census</h1>
+        </div>
+        <div id="textbox">
+            <p>Each year the US Department of Agriculture conducts a honey bee survey that collects information on 
+                colony size, honey production, and reasons for colony loss. The chart below provides data on number of
+                honey bee colonies by state for the year 2020 broken down by quarter. Enable the data visual by selecting a time period.
+                You can explore the data by hovering or clicking on a datapoint. 
+            </p>
+        </div>
+        <div id="selector">
+            <p> <button id="q1"><img src = "./q1-01.png" width = "50" height = "50"></button>
+                <button id="q2"><img src = "./q2-01.png" width = "50" height = "50"></button>
+                <button id="q3"><img src = "./q3-01.png" width = "50" height = "50"></button>
+                <button id="q4"><img src = "./q4-01.png" width = "50" height = "50"></button>
+            </p>
+        </div>
+        <div id="chart"></div>
+        <h1></h1>
+        <script src="./script.js"></script>
+    </body>

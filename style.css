@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nothing You Could Do', cursive;
+    background-color: white;
+}
+
+p {
+    font-size: 12.5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Work Sans";
+    font-size: 31.25px;
+    text-align: center;
+    opacity: .1;
+    font-style: bold;
+}
+
+#title {
+    width: 100vw;
+    height: 14vh;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+#selector {
+    width: 100vw;
+    height: 14vh;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top:-50px;
+}
+
+#chart {
+    width: 70vw;
+    height: 80vh;
+    position: relative;
+    margin-left: 15%;
+}
+
+.tooltip {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    font-size: 12.5pt;
+    pointer-events: none;
+}
+
+.funfact {
+    position: absolute;
+    left: 75vw;
+    top: 35vh;
+    visibility: hidden; 
+    max-width: 200px;
+    max-height: 500px;
+    font-size: 12.5px;
+}
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    visibility: hidden;
+    pointer-events: none;
+    width: 80px;
+    height: 80px;
+}
+
+.axis {
+    font-family: "Work Sans";
+    font-size: 7.5px;
+    color: black;
+}
+
+.axisLabel {
+    font-size: 12.5px;
+    text-anchor: middle;
+    fill: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 50px;
+    padding-bottom: 60px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12.5px;
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    opacity: .2;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:focus {
+    opacity: 1;
+}
+
+.dates {
+    color: rgb(255, 200, 0);
+}
+
+#textbox {
+    max-width: 240px;
+    max-height: 250px;
+    word-wrap: normal;
+    position: absolute;
+    float: left;
+    font-size: 50px;
+    z-index: 1;
+    top: 50px;
+    left: 40px;
+}
+
+.line {
+    stroke: black;
+}
+
+.hexagons {
+    fill: none;
+}
