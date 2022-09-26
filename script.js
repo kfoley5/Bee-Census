@@ -139,7 +139,7 @@ d3.csv("./beeColonies.csv").then(function (data) {
             .attr("font-family", "Work Sans")
             .attr("text-anchor", "center")
             .attr("font-weight", 500)
-            .attr("x", width / 2 - 1200)
+            .attr("x", width / 2- 310)
             .attr("y", height / 2)
             .text("Jan - Mar")
         
@@ -237,7 +237,7 @@ d3.csv("./beeColonies.csv").then(function (data) {
             .attr("font-family", "Work Sans")
             .attr("text-anchor", "center")
             .attr("font-weight", 500)
-            .attr("x", width / 2 - 1200)
+            .attr("x", width / 2 - 310)
             .attr("y", height / 2)
             .text("Apr - Jun")
 
@@ -325,7 +325,7 @@ d3.csv("./beeColonies.csv").then(function (data) {
             .attr("font-family", "Work Sans")
             .attr("text-anchor", "center")
             .attr("font-weight", 500)
-            .attr("x", width / 2 - 1200)
+            .attr("x", width / 2 - 310)
             .attr("y", height / 2)
             .text("Jul - Sep")
 
@@ -419,7 +419,7 @@ d3.csv("./beeColonies.csv").then(function (data) {
             .attr("font-family", "Work Sans")
             .attr("text-anchor", "center")
             .attr("font-weight", 500)
-            .attr("x", width / 2 - 1200)
+            .attr("x", width / 2 - 310)
             .attr("y", height / 2)
             .text("Oct - Dec")
 
