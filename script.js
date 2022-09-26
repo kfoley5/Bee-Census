@@ -65,7 +65,7 @@ d3.csv("./beeColonies.csv").then(function (data) {
         .range([150, width - 150]);
 
     // Set radius of hexagons
-    var radius = 16;
+    var radius = 17.5;
 
     // Color Scale for percent change
     const percent = {
